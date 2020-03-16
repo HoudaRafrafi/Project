@@ -1,0 +1,125 @@
+nav{
+	background-color: rgba(0, 0, 0, 1);
+	opacity: 0.9;
+}
+ nav ul li a img{
+	width: 60px;
+	height: 50px;
+}
+ 
+ nav ul .div1
+ {
+ 	margin-left:20px;
+ }
+nav ul li a
+{
+	color: white;
+
+}
+
+nav ul li a:hover
+{
+	color:pink;
+}
+
+nav ul .div2
+{
+	margin-top:5px;
+}
+
+form a
+{
+	color:white;
+}
+form a:hover
+{
+	color:pink;
+}
+
+.cont {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+
+
+.cont img
+{
+	
+	height: 694px;
+    width: 100%;
+    filter : blur(1px);
+ 
+
+}
+
+.test{
+	position: absolute;
+	color :black ; 
+	font-size: 30px;
+	bottom: 50%;
+    right: 50%;
+    left: 31%;
+    top: 14%;
+    width: 500px;
+    background-color:black;
+    opacity:0.78; 
+    height: 450px;
+
+}
+
+.cont .test .form .h4{
+	color:white;
+}
+.cont .test .form .form-group .form-control
+{
+	width: 300px;
+	margin-left: 50px;
+	
+}
+
+.cont .test .form .taille .custom-control .custom-control-label
+{
+	font-size: small;
+	font-weight: normal;
+}
+.cont .test .form .taille .custom-control 
+{
+	margin-left:10px; 
+	color:white;
+	
+}
+
+.cont .test .form .taille .forgot{
+	margin-top: -18px;
+	}
+.cont .test .form .taille a:hover{
+	color:white;
+}
+
+
+.cont .test .form .taille a
+{
+	color:white;
+	font-size: small;
+}
+
+.cont .test .form .btn{
+	width: 300px;
+}
+
+.cont .test .form .social p {
+	font-size:small ;
+	margin-top:30px;
+	color:white;
+	
+}
+.cont .test .form .social a{
+	color:white;
+}
+
+#profile img
+{
+	width:20%
+}

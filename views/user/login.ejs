@@ -1,0 +1,54 @@
+	<%- include('../partials/header')-%>
+	<%- include('../partials/navbar')-%>
+	<div class="cont">
+
+		<img src="/images/livre.png" alt="livre" >
+		<div class="test">
+			<form class="form text-center  p-5"  method='post' action='/users/login' >
+				<!-- creation formulaire-->
+				<p class="h4 mb-4">Sign in</p>
+
+				<div class="form-group">
+					<input type="email" id="email" name="email" class="form-control" placeholder="Nom utilisateur...">
+				</div>
+
+			    <div class="form-group">
+			    	<input type="password" id="password" name="password" class="form-control" placeholder="Mot de passe...">
+			    </div>
+
+				<div class="d-flex justify-content-around taille">
+        			
+        			<div>
+
+			      		<div class="custom-control custom-checkbox">
+                			<input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                			<label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+           				</div>
+
+       				</div>
+
+        			<div class="forgot">
+            			<a href="#">Forgot password?</a>
+        			</div>
+
+   				</div>
+        
+
+			    <div>
+		            <button type="submit" class=" btn btn-danger">Login</button>
+		            
+		        </div>
+		        <div class="social">
+		        	<p> ...or login with</p>
+					<a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f light-blue-text"></i></a>
+    				<a href="#" class="mx-2" role="button"><i class="fab fa-twitter light-blue-text"></i></a>
+					<a href="#" class="mx-2" role="button"><i class="fab fa-linkedin-in light-blue-text"></i></a>
+					<a href="#" class="mx-2" role="button"><i class="fab fa-github light-blue-text"></i></a>
+		        </div>
+
+			</form>
+		</div>
+	</div>
+	<%- include('../partials/footer')-%>
+
+ 
